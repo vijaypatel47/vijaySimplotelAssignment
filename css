@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+.home-page-container {
+    display: flex;
+    flex-direction: column;
+    height: 150vh;
+}
+
+@media (min-width:768px) {
+    .items {
+        font-size: 18px;
+        margin-right: 15px;
+    }
+
+    .cart-image {
+        height: 170px;
+    }
+}
+
+@media (max-width:545px) {
+    .items {
+        font-size: 6px;
+        margin-right: 3px;
+    }
+
+    .logo {
+        height: 30px;
+        width: 30px;
+    }
+
+    .nav-container {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+
+.nav-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.unorderd-list-item-container {
+    display: flex;
+    list-style: none;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.items {
+    padding-right: 6px;
+}
+
+.face-wtsp-cont {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+
+}
+
+.button {
+
+    height: 30px;
+    width: 30px;
+    border: 1pX color black;
+    border-radius: 50%;
+    margin-left: 8px;
+}
+
+.logo {
+    height: 70px;
+    width: 70px;
+}
+
+.lorem-ipsum-hotel-cont {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    background-image: url("https://res.cloudinary.com/drgheojrx/image/upload/v1713354085/heroimg_ruvtuh.jpg");
+    height: 100%;
+    background-size: cover;
+
+}
+
+.lorem-ipsum-name-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(to right, #343538, #5f6166);
+    height: 30px;
+    width: 220px;
+    border-radius: 5px;
+    margin: 30px;
+}
+
+.lorem-ipsum {
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.description-container {
+    padding: 10px;
+    background-color: #c3d0eb;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.discription {
+    margin-right: 10px;
+}
+
+.cart-container {
+    padding-left: 40px;
+    display: flex;
+    justify-content: space-between;
+    background-color: transparent;
+}
+
+.hotel-name {
+    padding-left: 40px;
+}
+
+.cart-item-rooms-cont {
+    margin-right: 20px;
+}
+
+.cart-item-rooms-details-cont {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+
+
+}
+
+.cart-item-dining-cont {
+    margin-right: 20px;
+}
+
+.cart-item-dining-details-cont {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.cart-item-pools-cont {
+    margin-right: 20px;
+}
+
+.para-discription-dining {
+    text-align: center;
+}
+
+.para-discription-pools {
+    text-align: end;
+}
+
+.cart-item-pools-details-cont {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-end;
+
+}
+
+.cart-image {
+    height: 120px;
+    width: 100%;
+}
+
+.cart-item-button {
+    background-color: black;
+    height: 25px;
+    width: 100px;
+    color: white;
+    border-radius: 5px;
+}
